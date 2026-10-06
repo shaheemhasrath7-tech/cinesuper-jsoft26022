@@ -69,3 +69,4 @@ insert into reviews (movie_id, reviewer_name, rating, comment) values
   ((select id from movies where title = 'Interstellar'),    'Nikhil',  5, 'Mind-blowing science.'),
   ((select id from movies where title = 'Inception'),       'Arjun',   4, 'Need to watch it twice.'),
   ((select id from movies where title = 'The Dark Knight'), 'Akhil',   5, 'The Joker is legendary.');
+  

@@ -20,3 +20,4 @@ create policy "Public can add reviews"
     and length(trim(reviewer_name)) between 1 and 50
     and length(coalesce(comment, '')) <= 500
   );
+  
